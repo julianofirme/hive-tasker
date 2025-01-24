@@ -2,12 +2,16 @@
 
 A Discord bot that creates tasks in Hive directly from Discord messages using AI to interpret and structure the task details.
 
+<div align="left">
+  <img src="https://github.com/user-attachments/assets/062add5a-721e-4ba7-83d2-c6ecf5902807" alt="Imagem" width="400">
+</div>
+
 ## Features
 
 - Create Hive tasks directly from Discord messages
 - Uses Gemini AI to intelligently parse task details from natural language
 - Automatically matches tasks to projects in your Hive workspace
-- Simple command interface with `!hive-task` prefix
+- Simple command interface with `!task` prefix
 
 ## Prerequisites
 
@@ -20,8 +24,8 @@ A Discord bot that creates tasks in Hive directly from Discord messages using AI
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
-cd tasker
+git clone https://github.com/julianofirme/hive-tasker.git
+cd hive-tasker
 ```
 
 2. Install dependencies:
@@ -69,12 +73,12 @@ node src/index.js
 
 In any Discord channel where the bot is present, use the command:
 ```
-!hive-task [your task description]
+!task [your task description]
 ```
 
 Example:
 ```
-!hive-task Create a new landing page with modern design and responsive layout
+!task Create a new landing page with modern design and responsive layout
 ```
 
 The bot will:
@@ -97,7 +101,3 @@ tasker/
 ├── .env                      # Environment variables
 └── package.json             # Project dependencies and scripts
 ```
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
